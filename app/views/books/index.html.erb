@@ -1,9 +1,64 @@
 <h1>Books</h1>
 <div id="books">
-  <% @books.each do |book| %>
-    <%= render book %>
-   <p>
-    <%= link_to "Show this book", book %>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_name', name:Book.model_name.human)%>
     </p>
-  <% end %>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_cascade', cascade:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_deep_interpolation', deep_interpolation:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_default', default:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_exception_handler', exception_handler:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_fallback', fallback:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_fallback_in_progress', fallback_in_progress:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_fallback_original_locale', fallback_original_locale:Book.model_name
+.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_format', format:Book.model_name.human) %>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_object', object:Book.model_name.human) %>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_raise', raise:Book.model_name.human) %>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_resolve', resolve:Book.model_name.human) %>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_scope', scope:Book.model_name.human)%>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_separator', separator:Book.model_name.human) %>
+    </p>
+    <p>
+      <strong>Title:</strong>
+      <%= t('views.book.title_resolve', resolve:Book.model_name.human) %>
+    </p>
 </div>

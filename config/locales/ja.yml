@@ -1,0 +1,18 @@
+ja:
+  views:
+    book:
+      title_name: "%{name}のタイトル"
+      title_cascade: "%{cascade}のタイトル"
+      title_deep_interpolation: "%{deep_interpolation}のタイトル"
+      title_default: "%{default}のタイトル"
+      title_exception_handler: "%{exception_handler}のタイトル"
+      title_fallback: "%{fallback}のタイトル"
+      title_fallback_in_progress: "%{fallback_in_progress}のタイトル"
+      title_fallback_original_locale: "%{fallback_original_locale}のタイトル"
+      title_format: "%{format}のタイトル"
+      title_object: "%{object}のタイトル"
+      title_raise: "%{raise}のタイトル"
+      title_resolve: "%{resolve}のタイトル"
+      title_scope: "%{scope}のタイトル"
+      title_separator: "%{separator}のタイトル"
+      title_throw: "%{throw}のタイトル"
