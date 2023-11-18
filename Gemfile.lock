@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/ruby-i18n/i18n.git
-  revision: baf8a889391c7877ffe3a2bb61ea5465d2c9dc38
-  specs:
-    i18n (1.14.2)
-      concurrent-ruby (~> 1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,6 +90,8 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
     importmap-rails (1.2.3)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -225,7 +220,6 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  i18n!
   importmap-rails
   jbuilder
   puma (~> 5.0)
